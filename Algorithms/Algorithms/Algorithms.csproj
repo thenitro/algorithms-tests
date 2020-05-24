@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE43B3B8-2D6D-458B-9263-7AC9FE0B183C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Algorithms</RootNamespace>
+    <AssemblyName>Algorithms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="algorithms\Algorithms\Concurency\Examples\LocalMutexExample.cs" />
+    <Compile Include="algorithms\Algorithms\Concurency\Examples\LockExample.cs" />
+    <Compile Include="algorithms\Algorithms\Concurency\Examples\MonitorCombinedExample.cs" />
+    <Compile Include="algorithms\Algorithms\Concurency\Examples\MonitorsSyncExample.cs" />
+    <Compile Include="algorithms\Algorithms\Concurency\Examples\SemaphoreExample.cs" />
+    <Compile Include="algorithms\Algorithms\Concurency\Examples\TimeoutMutexExample.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\BellNumbers.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\BooleanParenthesizationProblem.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\BoxStackingProblem.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\BytelandianGoldCoins.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\CoinChange.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\CountNumberOfWaysToCoverDistance.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\CuttingRod.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\DiceThrow.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\EditDistance.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\Factorial.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\Fibonacci.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\FindTheLongestPathInMatrixWithGivenConstraints.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\KnapsackProblem.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\LongestCommonSubsequence.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\MatrixChainMultiplication.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\MaximumProductCutting.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\NumberOfWaysToFormN.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\OptimalStrategyForAGame.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\PartitionProblem.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\PartitionSetIntoTwoSubsets.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\ShortestCommonSupersequence.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\SubsetSumProblem.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\UglyNumbers.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\UniqueBinarySearchTrees.cs" />
+    <Compile Include="algorithms\Algorithms\DynamicProgramming\WordBreakProblem.cs" />
+    <Compile Include="algorithms\Algorithms\Graphics\SweepLineAlgorithm.cs" />
+    <Compile Include="algorithms\Algorithms\Median\Median.cs" />
+    <Compile Include="algorithms\Algorithms\Other\BitwiseOperations.cs" />
+    <Compile Include="algorithms\Algorithms\Other\ConvexHull.cs" />
+    <Compile Include="algorithms\Algorithms\Other\IsKindOfSorted.cs" />
+    <Compile Include="algorithms\Algorithms\Other\MajorityElements.cs" />
+    <Compile Include="algorithms\Algorithms\Pathfinding\BfsPathfinding.cs" />
+    <Compile Include="algorithms\Algorithms\Pathfinding\GraphsPathfinding.cs" />
+    <Compile Include="algorithms\Algorithms\Properties\AssemblyInfo.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\FindNumberWithoutDuplicate.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\FindTheNumberOfIslands.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\FindTheRowWithMaximumNumberOfOnes.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\MinCostPath.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\MinimumSwapsRequiredToSortAnArray.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\MinimumSwapsToMakeToArraysIdentical.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\MinimumWindow.cs" />
+    <Compile Include="algorithms\Algorithms\RandomTasks\SteppingNumbers.cs" />
+    <Compile Include="algorithms\Algorithms\Search\BinarySearch.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\BinarySort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\HeapSort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\InsertionSort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\MergeSort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\QuickSort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\SelectionSort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\ShellSort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\ShuffleSort.cs" />
+    <Compile Include="algorithms\Structures\Graph\ConnectedComponents.cs" />
+    <Compile Include="algorithms\Structures\Graph\DfsPath.cs" />
+    <Compile Include="algorithms\Structures\Graph\FloydWarshallAlgorithm.cs" />
+    <Compile Include="algorithms\Structures\Graph\Graph.cs" />
+    <Compile Include="algorithms\Structures\Heap\HeapNode.cs" />
+    <Compile Include="algorithms\Structures\Heap\MinHeap.cs" />
+    <Compile Include="algorithms\Structures\Line.cs" />
+    <Compile Include="algorithms\Structures\Point.cs" />
+    <Compile Include="algorithms\Structures\Queue\PriorityQueue.cs" />
+    <Compile Include="algorithms\Structures\Tree\Abstract\AbstractBinaryTree.cs" />
+    <Compile Include="algorithms\Structures\Tree\Abstract\IBinaryTree.cs" />
+    <Compile Include="algorithms\Structures\Tree\AvlTree\AvlNode.cs" />
+    <Compile Include="algorithms\Structures\Tree\AvlTree\AvlTree.cs" />
+    <Compile Include="algorithms\Structures\Tree\BinarySearchTree\BinarySearchTree.cs" />
+    <Compile Include="algorithms\Structures\Tree\BinarySearchTree\BinaryTreeNode.cs" />
+    <Compile Include="algorithms\Structures\Tree\ExpressionTree\ExpressionTree.cs" />
+    <Compile Include="algorithms\Structures\Tree\ExpressionTree\ExpressionTreeNode.cs" />
+    <Compile Include="algorithms\Structures\Tree\QuadTree\Node.cs" />
+    <Compile Include="algorithms\Structures\Tree\QuadTree\Quad.cs" />
+    <Compile Include="algorithms\Structures\Tree\RedBlackTree\RedBlackTree.cs" />
+    <Compile Include="algorithms\Structures\Tree\RedBlackTree\RedBlackTreeNode.cs" />
+    <Compile Include="algorithms\Structures\Tree\Trie\Trie.cs" />
+    <Compile Include="algorithms\Structures\Tree\Trie\TrieNode.cs" />
+    <Compile Include="algorithms\Structures\UnionFind\DisjointUnionSets.cs" />
+    <Compile Include="algorithms\Structures\UnionFind\QuickFind.cs" />
+    <Compile Include="algorithms\Structures\UnionFind\QuickUnion.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="algorithms\.git" />
+    <Content Include="algorithms\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>
