@@ -1,15 +1,15 @@
-﻿using Algorithms.Structure.Graphs;
+using Algorithms.Structure.Graphs;
 using NUnit.Framework;
 
 namespace AlgorithmsTesting.Structures.Graphs
 {
     [TestFixture]
-    public class TestGraph
+    public class TestDigraph
     {
         [Test]
         public void SmokeTest()
         {
-            var digraph = new Graph();
+            var digraph = new Digraph();
             
             Assert.Zero(digraph.GetNeighbors(0).Count);
             Assert.Zero(digraph.GetNeighbors(0).Count);
@@ -17,13 +17,13 @@ namespace AlgorithmsTesting.Structures.Graphs
             digraph.AddEdge(0, 1);
             
             Assert.AreEqual(1, digraph.GetNeighbors(0).Count);
-            Assert.AreEqual(1, digraph.GetNeighbors(1).Count);
+            Assert.Zero(digraph.GetNeighbors(1).Count);
         }
         
         [Test]
         public void TestVerticesAmount()
         {
-            var graph = new Graph();
+            var graph = new Digraph();
             Assert.AreEqual(0, graph.Vertices.Count);
             
             graph.AddEdge(0, 1);

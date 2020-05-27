@@ -8,6 +8,7 @@ using Algorithms.RandomTests;
 using Algorithms.Search;
 using Algorithms.Sort;
 using Algorithms.Structure;
+using Algorithms.Structure.Graphs;
 using Algorithms.Structure.Heap;
 using Algorithms.Structure.QuadTree;
 using Algorithms.Structure.Queue;
@@ -223,7 +224,7 @@ namespace Algorithms
 
         private static void GraphFindAllPaths()
         {
-            var graph = new Graph(true);
+            var graph = new Digraph();
             
             graph.AddEdge(0, 1);
             graph.AddEdge(0, 2);
@@ -242,7 +243,7 @@ namespace Algorithms
 
         private static void GraphIterativeDfs()
         {
-            var graph = new Graph(true);
+            var graph = new Digraph();
             
             graph.AddEdge(1, 0);
             graph.AddEdge(0, 2);
@@ -257,7 +258,7 @@ namespace Algorithms
 
         private static void FindMotherVertexInGraph()
         {
-            var graph = new Graph(true);
+            var graph = new Digraph();
                 graph.AddEdge(0, 1);
                 graph.AddEdge(0, 2);
                 graph.AddEdge(1, 3);
@@ -272,7 +273,7 @@ namespace Algorithms
 
         private static void DetecteCycleInDirectedGraph()
         {
-            var graph = new Graph(true);
+            var graph = new Digraph();
                 graph.AddEdge(0, 1);
                 graph.AddEdge(0, 2);
                 graph.AddEdge(1, 2);
@@ -323,7 +324,7 @@ namespace Algorithms
 
         private static void TestGraphsPathfinding()
         {
-            var graph = new Graph(false);
+            var graph = new Graph();
                 graph.AddEdge(0, 1);
                 graph.AddEdge(0, 3);
                 graph.AddEdge(1, 2);
@@ -396,7 +397,7 @@ namespace Algorithms
 
         private static void TestGraph()
         {
-            var graph = new Graph(true);
+            var graph = new Digraph();
             
             /*graph.AddEdge(5, 2);
             graph.AddEdge(5, 0);

@@ -1,4 +1,5 @@
-using Algorithms.Structure;
+using Algorithms.Structure.Graphs;
+using Algorithms.Structure.Graphs.Utils;
 using NUnit.Framework;
 
 namespace AlgorithmsTesting.Structures.Graphs
@@ -9,7 +10,7 @@ namespace AlgorithmsTesting.Structures.Graphs
         [Test]
         public void SmokeTest()
         {
-            var graph = new Graph(false);
+            var graph = new Graph();
             
                 graph.AddEdge(0, 1);
                 graph.AddEdge(0, 2);
