@@ -47,6 +47,7 @@
     <Compile Include="Structures\Graphs\TestDepthFirstOrder.cs" />
     <Compile Include="Structures\Graphs\TestDigraph.cs" />
     <Compile Include="Structures\Graphs\TestGraph.cs" />
+    <Compile Include="Structures\Graphs\TestKosarajuSharirScc.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj">
