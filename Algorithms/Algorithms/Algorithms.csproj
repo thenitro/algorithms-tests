@@ -92,7 +92,9 @@
     <Compile Include="algorithms\Algorithms\Sort\HeapSort.cs" />
     <Compile Include="algorithms\Algorithms\Sort\InsertionSort.cs" />
     <Compile Include="algorithms\Algorithms\Sort\KeyIndexedCounting.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\Lsd.cs" />
     <Compile Include="algorithms\Algorithms\Sort\MergeSort.cs" />
+    <Compile Include="algorithms\Algorithms\Sort\Msd.cs" />
     <Compile Include="algorithms\Algorithms\Sort\QuickSort.cs" />
     <Compile Include="algorithms\Algorithms\Sort\SelectionSort.cs" />
     <Compile Include="algorithms\Algorithms\Sort\ShellSort.cs" />
