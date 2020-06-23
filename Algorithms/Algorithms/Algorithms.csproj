@@ -136,6 +136,7 @@
     <Compile Include="algorithms\Structures\Tree\QuadTree\Quad.cs" />
     <Compile Include="algorithms\Structures\Tree\RedBlackTree\RedBlackTree.cs" />
     <Compile Include="algorithms\Structures\Tree\RedBlackTree\RedBlackTreeNode.cs" />
+    <Compile Include="algorithms\Structures\Tree\TernarySearchTrie\Tst.cs" />
     <Compile Include="algorithms\Structures\Tree\Trie\Trie.cs" />
     <Compile Include="algorithms\Structures\Tree\Trie\TrieNode.cs" />
     <Compile Include="algorithms\Structures\UnionFind\DisjointUnionSets.cs" />
