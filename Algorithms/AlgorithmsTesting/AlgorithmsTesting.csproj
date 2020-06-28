@@ -46,6 +46,7 @@
     <Compile Include="Algorithms\Sort\TestLsd.cs" />
     <Compile Include="Algorithms\Sort\TestMsd.cs" />
     <Compile Include="Algorithms\Sort\TestRadixQuicksort.cs" />
+    <Compile Include="Algorithms\String\TestBruteForceSubstringSearch.cs" />
     <Compile Include="Algorithms\String\TestLongestRepeatedSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structures\Graphs\LazyPrimMst.cs" />
