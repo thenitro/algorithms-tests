@@ -58,8 +58,9 @@
     <Compile Include="Structures\Graphs\TestGraph.cs" />
     <Compile Include="Structures\Graphs\TestKosarajuSharirScc.cs" />
     <Compile Include="Structures\Graphs\TestKruskalMst.cs" />
-    <Compile Include="Structures\Tries\TestTernarySearchTrie.cs" />
-    <Compile Include="Structures\Tries\TestTrie.cs" />
+    <Compile Include="Structures\Tree\TestLevelOrderTraversal.cs" />
+    <Compile Include="Structures\Tree\Trie\TestTernarySearchTrie.cs" />
+    <Compile Include="Structures\Tree\Trie\TestTrie.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj">
